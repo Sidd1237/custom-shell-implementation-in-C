@@ -47,7 +47,7 @@ int sid_help(char **args)
   printf("Type program names and arguments, and hit enter.\n");
   printf("The following are built in:\n");
 
-  for (i = 0; i < lsh_num_builtins(); i++) {
+  for (i = 0; i < sid_num_builtins(); i++) {
     printf("  %s\n", builtin_str[i]);
   }
 
